@@ -55,8 +55,8 @@ const home = {
   headline: <>Data Analyst and builder</>,
   subline: (
     <>
-      I'm Aman, a <InlineCode>Data Analyst</InlineCode>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm Aman, a <InlineCode>Data Analyst</InlineCode> who crafts insights 
+      <br/>and builds projects beyond work.
     </>
   ),
 };
