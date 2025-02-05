@@ -1,4 +1,4 @@
-const baseURL = "github.com/jha-aman09";
+const baseURL = "portfolio--aman.vercel.app";
 
 const routes = {
   "/": true,
