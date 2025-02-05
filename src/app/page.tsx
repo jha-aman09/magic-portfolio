@@ -20,12 +20,19 @@ export async function generateMetadata() {
       title,
       description,
       type: "website",
-      url: `https://${baseURL}`
+      url: `https://${baseURL}`,
+      images: [
+        {
+          url: ogImage,
+          alt: title,
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
       title,
-      description
+      description,
+      images: [ogImage],
     },
   };
 }
@@ -46,7 +53,11 @@ export default function Home() {
             image: `${baseURL}/og?title=${encodeURIComponent(home.title)}`,
             publisher: {
               "@type": "Person",
-              name: person.name
+              name: person.name,
+              image: {
+                "@type": "ImageObject",
+                url: `${baseURL}${person.avatar}`,
+              },
             },
           }),
         }}

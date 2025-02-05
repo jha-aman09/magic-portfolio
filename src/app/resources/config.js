@@ -1,4 +1,4 @@
-const baseURL = "https://github.com/jha-aman09";
+const baseURL = "github.com/jha-aman09";
 
 const routes = {
   "/": true,
