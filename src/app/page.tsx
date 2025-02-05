@@ -46,11 +46,7 @@ export default function Home() {
             image: `${baseURL}/og?title=${encodeURIComponent(home.title)}`,
             publisher: {
               "@type": "Person",
-              name: person.name,
-              image: {
-                "@type": "ImageObject",
-                url: `${baseURL}${person.avatar}`,
-              },
+              name: person.name
             },
           }),
         }}
