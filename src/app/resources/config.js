@@ -1,4 +1,4 @@
-const baseURL = "portfolio--aman.vercel.app";
+const baseURL = "linkedin.com/in/aman--jha";
 
 const routes = {
   "/": true,
