@@ -24,18 +24,7 @@ export async function generateMetadata() {
       siteName: `${person.firstName}'s Portfolio`,
       locale: "en_US",
       type: "website",
-    },
-    robots: {
-      index: true,
-      follow: true,
-      googleBot: {
-        index: true,
-        follow: true,
-        "max-video-preview": -1,
-        "max-image-preview": "large",
-        "max-snippet": -1,
-      },
-    },
+    }
   };
 }
 
