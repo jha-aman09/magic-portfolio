@@ -74,7 +74,7 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "mailto:pjha78498@gmail.com",
+    link: "Aman Kumar Jha.pdf",
   },
   intro: {
     display: true,

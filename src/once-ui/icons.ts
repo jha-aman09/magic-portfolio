@@ -6,6 +6,7 @@ import {
   HiChevronRight,
   HiChevronLeft,
   HiArrowUpRight,
+  HiPhone,
   HiOutlineArrowPath,
   HiCheck,
   HiMiniQuestionMarkCircle,
@@ -21,6 +22,8 @@ import {
   HiCalendarDays,
   HiClipboard,
   HiArrowRight,
+  HiLink,
+  HiDocumentText,
 } from "react-icons/hi2";
 
 import {
@@ -41,6 +44,7 @@ export const iconLibrary: Record<string, IconType> = {
   refresh: HiOutlineArrowPath,
   arrowUpRight: HiArrowUpRight,
   check: HiCheck,
+  document: HiDocumentText,
   arrowRight: HiArrowRight,
   helpCircle: HiMiniQuestionMarkCircle,
   infoCircle: HiInformationCircle,
@@ -48,6 +52,8 @@ export const iconLibrary: Record<string, IconType> = {
   errorCircle: HiExclamationCircle,
   checkCircle: HiCheckCircle,
   email: HiEnvelope,
+  link: HiLink,
+  phone: HiPhone,
   globe: HiMiniGlobeAsiaAustralia,
   person: PiUserCircleDuotone,
   grid: PiGridFourDuotone,

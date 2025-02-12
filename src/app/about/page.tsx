@@ -153,10 +153,11 @@ export default function About() {
                 marginBottom="m"
                 vertical="center"
               >
-                <Icon paddingLeft="12" name="calendar" onBackground="brand-weak" />
-                <Flex paddingX="8">Schedule a call</Flex>
+                <Icon paddingLeft="12" name="document" onBackground="brand-weak" />
+                <Flex paddingX="8">My Resume</Flex>
                 <IconButton
                   href={about.calendar.link}
+                  download
                   data-border="rounded"
                   variant="secondary"
                   icon="chevronRight"
