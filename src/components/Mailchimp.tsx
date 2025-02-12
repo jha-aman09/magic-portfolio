@@ -39,14 +39,12 @@ export const Mailchimp = ({ newsletter }: { newsletter: CallbackProps }) => {
     setEmail(value);
     setSuccess("");
 
-    if (!validateEmail(value)) {
+    if (touched && !validateEmail(value)) {
       setError("Please enter a valid email address.");
     } else {
       setError("");
     }
   };
-
-  const debouncedHandleChange = debounce(handleChange, 2000);
 
   const handleBlur = () => {
     setTouched(true);
@@ -83,6 +81,7 @@ export const Mailchimp = ({ newsletter }: { newsletter: CallbackProps }) => {
 
       setSuccess("Thank you! We'll get back to you soon.");
       setEmail("");
+      setTouched(false);
     } catch (err) {
       setError("Failed to send callback request. Please try again.");
     } finally {
@@ -181,13 +180,7 @@ export const Mailchimp = ({ newsletter }: { newsletter: CallbackProps }) => {
             label="Email"
             value={email}
             required
-            onChange={(e) => {
-              if (error) {
-                handleChange(e);
-              } else {
-                debouncedHandleChange(e);
-              }
-            }}
+            onChange={handleChange}
             onBlur={handleBlur}
             errorMessage={error}
           />
