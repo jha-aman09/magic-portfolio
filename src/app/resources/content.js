@@ -37,9 +37,9 @@ const social = [
     link: "https://www.linkedin.com/in/aman--jha",
   },
   {
-    name: "X",
-    icon: "x",
-    link: "",
+    name: "Phone",
+    icon: "phone",
+    link: "tel:+918745037110",
   },
   {
     name: "Email",
