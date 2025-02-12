@@ -14,11 +14,10 @@ const person = {
 
 const newsletter = {
   display: true,
-  title: <>Subscribe to {person.firstName}'s Newsletter</>,
+  title: <>Schedule a Meeting</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
-      creativity and engineering.
+      Enter your email to start the scheduling process. I will send you a link to choose a time that works best for you.
     </>
   ),
 };

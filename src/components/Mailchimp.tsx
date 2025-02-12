@@ -83,7 +83,7 @@ export const Mailchimp = ({ newsletter }: { newsletter: CallbackProps }) => {
       setEmail("");
       setTouched(false);
     } catch (err) {
-      setError("Failed to send callback request. Please try again.");
+      setError("Failed to schedule a meeting. Please try again.");
     } finally {
       setIsSubmitting(false);
     }
@@ -186,7 +186,7 @@ export const Mailchimp = ({ newsletter }: { newsletter: CallbackProps }) => {
           />
           <Flex height="48" vertical="center">
             <Button type="submit" size="m" fillWidth disabled={isSubmitting}>
-              {isSubmitting ? "Sending..." : "Request Callback"}
+              {isSubmitting ? "Sending..." : "Schedule Meeting"}
             </Button>
           </Flex>
         </Flex>

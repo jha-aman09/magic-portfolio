@@ -21,10 +21,10 @@ export default async function handler(
     const { data, error } = await resend.emails.send({
       from: 'Portfolio <onboarding@resend.dev>',
       to: process.env.ADMIN_EMAIL || '',
-      subject: 'New Callback Request',
+      subject: 'New Meeting Scheduling Request',
       html: `
-        <h2>New Callback Request</h2>
-        <p>Someone has requested a callback from your portfolio website.</p>
+        <h2>New Meeting Scheduling Request</h2>
+        <p>Someone has requested to schedule a meeting from your portfolio website.</p>
         <p><strong>Email:</strong> ${email}</p>
       `,
     });
