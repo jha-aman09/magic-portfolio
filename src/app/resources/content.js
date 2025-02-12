@@ -91,42 +91,38 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "ClearDekho Eyewear Pvt. Ltd.",
+        timeframe: "July 2024 - August 2024",
+        role: "Business Analyst Trainee",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Conducted data analysis to identify trends and provided recommendations for enhancing business operations.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Created dashboards in Excel and Power BI to monitor KPIs.
           </>,
+          <>
+            Worked with cross-functional teams to implement process optimization initiatives.
+          </>
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
+            src: "/images/projects/DS/SF1.png",
+            alt: "Customer Segmentation",
             width: 16,
             height: 9,
           },
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Prodigy InfoTech Pvt. Ltd.",
+        timeframe: "April 2024 - May 2024",
+        role: "Data Science Intern",
         achievements: [
-          <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
-          </>,
-          <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
-          </>,
+          <>Conducted data analysis to identify trends and provided recommendations for enhancing business operations.</>,
+          <>Created dashboards in Excel and Power BI to monitor KPIs.</>,
+          <>Worked with cross-functional teams to implement process optimization initiatives</>,
         ],
         images: [],
       },
@@ -134,15 +130,15 @@ const about = {
   },
   studies: {
     display: true, // set to false to hide this section
-    title: "Studies",
+    title: "Education",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Institute of Innovation in Technology and Management",
+        description: <>Bachelor of Computer Applications</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Kamal Model Sr. Sec. School",
+        description: <>Higher Secondary Certificate</>,
       },
     ],
   },

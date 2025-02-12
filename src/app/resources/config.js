@@ -99,7 +99,7 @@ const mailchimp = {
       opacity: 100,
     },
     grid: {
-      display: true,
+      display: false,
       color: "neutral-alpha-weak",
       opacity: 100,
     },
